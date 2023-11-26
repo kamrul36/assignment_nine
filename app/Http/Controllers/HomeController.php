@@ -8,8 +8,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $name = 'Kamrul Hasan'; // Replace with your actual name
-        $skills = ['PHP', 'Laravel', 'JavaScript', 'HTML', 'CSS']; // Replace with your actual skills
+        $name = 'Kamrul Hasan'; 
+        $skills = ['PHP', 'Laravel', 'JavaScript', 'HTML', 'CSS'];
 
         return view('home');
     }
